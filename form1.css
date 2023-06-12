@@ -1,0 +1,95 @@
+/* universal selector which applies to all the elements */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* container using flex concept */
+.container{
+    display:flex;
+    justify-content: center;
+    margin:80px;
+}
+
+/* applying same widtha and height for two div sections with class name half */
+.half{
+    width:400px;
+    height:500px;
+    height:auto;   
+}
+
+/* box shadow generator using for first div section */
+.one{
+
+    padding-top: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(223, 213, 213, 0.821);
+
+}
+
+.images{
+    padding:20px;
+}
+img{
+    padding:5px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight:bolder;
+}
+.forms{
+    margin:5px;
+}
+
+/* implementation of attribute selector to style only specific  input type(email) */
+input[type="Email"]{
+    width:300px;
+    border:none;
+    outline:none;
+    background-color: whitesmoke;
+    padding:10px;
+    margin-bottom: 15px;
+
+}
+
+/* implementation of attribute selector to style only specific  input type(password) */
+input[type="password"]{
+    width:300px;
+    border:none;
+    outline:none;
+    background-color: whitesmoke;
+    padding:10px;
+    margin-bottom: 15px;
+
+}
+
+/* using element/tag selector to style button element */
+button{
+    margin:20px;
+    width:150px;
+    padding:10px;
+    border:none;
+    background-color:orangered;
+    border-radius: 15px;
+    color:white;
+
+}
+
+.two{
+    background-color: orangered;
+
+}
+/* styling text color and alignmnet of content div section */
+.content{
+    color:white;
+    text-align: center;
+    padding:150px 50px;
+}
+
+/* styling button element inside content div section */
+.content button{
+    width:150px;
+    padding:10px;
+    border:2px solid white;
+}
